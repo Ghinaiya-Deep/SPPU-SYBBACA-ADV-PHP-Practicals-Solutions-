@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cricketinfo>
+<cricket>
+    <player>Sachin Tendulkar</player>
+    <runs>25000</runs>
+    <wickets>100</wickets>
+    <notout>39</notout>
+</cricket>
+
+<cricket>
+    <player>M.S.Dhoni</player>
+    <runs>20000</runs>
+    <wickets>200</wickets>
+    <notout>79</notout>
+</cricket>
+
+<cricket>
+    <player>Virat Kohli</player>
+    <runs>10000</runs>
+    <wickets>80</wickets>
+    <notout>19</notout>
+</cricket>
+
+<cricket>
+    <player>Shikhar Dhawan</player>
+    <runs>1000</runs>
+    <wickets>40</wickets>
+    <notout>9</notout>
+</cricket>
+
+
+</cricketinfo>

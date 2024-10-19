@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<course>
+    <computerscience>
+        <studentname>Deep</studentname>
+        <classname>SYBBA(CA)</classname>
+        <percentage>98</percentage>
+    </computerscience>
+
+    <computerscience>
+        <studentname>Gaurav</studentname>
+        <classname>SYBBA(CA)</classname>
+        <percentage>88</percentage>
+    </computerscience>
+
+    <computerscience>
+        <studentname>Sameer</studentname>
+        <classname>SYBBA(CA)</classname>
+        <percentage>94</percentage>
+    </computerscience>
+
+    <computerscience>
+        <studentname>Chirag</studentname>
+        <classname>SYBBA(CA)</classname>
+        <percentage>78</percentage>
+    </computerscience>
+
+    <computerscience>
+        <studentname>Ramesh</studentname>
+        <classname>SYBBA(CA)</classname>
+        <percentage>68</percentage>
+    </computerscience>
+
+    <computerscience>
+        <studentname>Suresh</studentname>
+        <classname>SYBBA(CA)</classname>
+        <percentage>87</percentage>
+    </computerscience>
+</course>

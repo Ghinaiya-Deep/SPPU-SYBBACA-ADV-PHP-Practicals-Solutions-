@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+    Create student table as follows:
+Student(sno, sname, standard, Marks, per).
+Write AJAX script to select the student name and print the student’s details of particular standard.
+     -->
+    <title>Document</title>
+</head>
+<body>
+    Student name : <input type="text" name = "sname" id = "sname"/>
+    <input type="button" id = "sub" value="Search">
+
+    <div id="result"></div>
+    
+    <script>
+        let sub = document.getElementById('sub');
+        sub.addEventListener('click',function(e){
+            name = document.getElementById('sname').value;
+            let xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if(xhttp.readyState == 4 && xhttp.status === 200)
+                document.getElementById('result').innerHTML = xhttp.responseText;
+            }
+
+
+            xhttp.open("GET","2.php?sname=" + name,true);
+            xhttp.send();
+        })
+    </script>
+</body>
+</html>

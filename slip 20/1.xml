@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<bookinfo>
+
+<category code="classical">
+<mname>Sholay</mname>
+<ryear>1975</ryear>
+<aname>Amitabh Bhachhan</aname>
+</category>
+
+<category code="action">
+<mname>Pushpa</mname>
+<ryear>2022</ryear>
+<aname>Allu Arjun</aname>
+</category>
+
+<category code="horror">
+    <mname>Raaz</mname>
+    <ryear>2002</ryear>
+    <aname>Dino Morea</aname>
+    </category>
+
+</bookinfo>

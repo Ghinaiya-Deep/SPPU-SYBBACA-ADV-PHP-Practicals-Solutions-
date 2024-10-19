@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<book_store>
+<bookinfo>
+    <bcode>101</bcode>
+    <bname>C</bname>
+    <author>R.M.Mehta</author>
+    <year>2000</year>
+    <price>600</price>
+</bookinfo>
+
+<bookinfo>
+    <bcode>102</bcode>
+    <bname>Software Engineering</bname>
+    <author>Rogger Presman</author>
+    <year>1990</year>
+    <price>1000</price>
+</bookinfo>
+
+<bookinfo>
+    <bcode>103</bcode>
+    <bname>PHP</bname>
+    <author>S.Jadhav</author>
+    <year>2005</year>
+    <price>900</price>
+</bookinfo>
+
+
+
+
+</book_store>

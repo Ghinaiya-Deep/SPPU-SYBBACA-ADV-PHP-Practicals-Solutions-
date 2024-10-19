@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cricektteam>
+    <team country="India">
+        <player>M.S.Dhoni</player>
+        <runs>15000</runs>
+        <wicket>120</wicket>
+    </team>
+
+    <team country="Australia">
+        <player>Warner</player>
+        <runs>12000</runs>
+        <wicket>20</wicket>
+    </team>
+
+    <team country="England">
+        <player>Buttler</player>
+        <runs>1000</runs>
+        <wicket>5</wicket>
+    </team>
+
+</cricektteam>

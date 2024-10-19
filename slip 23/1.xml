@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sinfo>
+    <sport code="1">
+        <sname>Cricket</sname>
+        <captain>M.S.Dhoni</captain>
+    </sport>
+
+    <sport code="2">
+        <sname>Football</sname>
+        <captain>Sunil Chhetri</captain>
+    </sport>
+
+    <sport code="3">
+        <sname>Hockey</sname>
+        <captain>Manpreet Singh</captain>
+    </sport>
+</sinfo>

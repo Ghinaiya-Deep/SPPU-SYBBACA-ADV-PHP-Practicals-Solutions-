@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Write an Ajax script to get player details from XML file when user select player name.
+        Create XML file to store details of player (name, country, wickets and runs)
+     -->
+    <title>Document</title>
+</head>
+<body>
+    player Name : <input type = 'text' id = 'pname'>
+    <input type = 'submit' id = 'search' value = 'search'><br><br>
+    <div id = 'result'></div>
+
+<script>
+	document.getElementById('search').addEventListener('click',function(){
+		let pname = document.getElementById('pname').value;
+		let result = document.getElementById('result');
+		if(pname === '')
+		{
+			result.innerHTML = "Please Enter Player Name ";
+		}
+		else
+		{
+			let xhttp = new XMLHttpRequest();
+			xhttp.onreadystatechange = function()
+			{
+				if(xhttp.readyState == 4 && xhttp.status == 200)
+				{
+					console.log(xhttp.responseText)
+					result.innerHTML = xhttp.responseText;
+				}
+			}
+			xhttp.open('GET','2.php?pname=' + pname,true);
+			xhttp.send();
+		}
+	})
+</script>
+</body>
+</html>

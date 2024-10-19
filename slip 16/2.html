@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <script type="text/javascript">
+function showval(str) {
+var xhttp;
+xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+if (this.readyState == 4 && this.status == 200) {
+document.getElementById("result").innerHTML = this.responseText;
+}
+};
+xhttp.open("GET", "2.php?txt="+str, true);
+xhttp.send(); 
+}
+</script>
+        <body>
+            <form action>
+                User name: <input type="text" name="txt"
+                    onkeyup="showval(this.value)">
+            </form>
+            <div id='result'></div>
+        </body>
+    </html>

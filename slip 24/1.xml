@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<collegeinfo>
+    <college>
+        <cname>C.M.C.S.</cname>
+        <city>Nashik</city>
+        <rank>First</rank>
+    </college>
+
+    <college>
+        <cname>Vir Narmda</cname>
+        <city>Surat</city>
+        <rank>Third</rank>
+    </college>
+
+    <college>
+        <cname>K.T.H.M.</cname>
+        <city>Nashik</city>
+        <rank>Fouth</rank>
+    </college>
+
+    <college>
+        <cname>Ashoka</cname>
+        <city>Mumbai</city>
+        <rank>Second</rank>
+    </college>
+</collegeinfo>

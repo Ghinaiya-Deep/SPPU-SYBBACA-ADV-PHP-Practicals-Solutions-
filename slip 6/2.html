@@ -1,0 +1,38 @@
+    <!-- 
+        Create employee table as follows EMP (eno, ename, designation, salary). Write Ajax program to select
+the employees name and print the selected employee’s details
+     -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Employee Name : <input type="text" id = "ename">
+    <input type="submit" value="Search" id = "search">
+    <br><br>
+    <div id="result"></div>
+
+
+    <script>
+        let search = document.getElementById('search');
+	search.addEventListener('click', function(){
+		let ename = document.getElementById('ename').value;
+		let xhttp = new XMLHttpRequest();
+		
+		xhttp.onreadystatechange = ()=>{
+			if(xhttp.readyState == 4 && xhttp.status == 200){
+				document.getElementById('result').innerHTML = xhttp.responseText;	
+			}
+		}
+		xhttp.open("GET","2.php?ename=" + ename,true);
+		xhttp.send();
+	})
+    </script>
+</body>
+</html>

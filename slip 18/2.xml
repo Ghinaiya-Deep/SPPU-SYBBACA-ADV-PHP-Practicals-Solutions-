@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bookstore>
+    <books>
+        <php>
+        <title>Programming in php</title>
+        <publication>O'relly</publication>
+        <price>800</price>
+        </php>
+
+        <php>
+        <title>Beginner in php</title>
+        <publication>WROX</publication>
+        <price>1100</price>
+        </php>
+
+        <php>
+        <title>Learning php</title>
+        <publication>David</publication>
+        <price>500</price>
+        </php>
+
+        <php>
+        <title>PHP WITH MYSQL</title>
+        <publication>Kelvin yark </publication>
+        <price>660</price>
+        </php>
+
+       <php>
+        <title>OOP IN PHP</title>
+        <publication>David powers</publication>
+        <price>500</price>
+        </php>
+
+        <php>
+        <title>Advance in php</title>
+        <publication>Miler</publication>
+        <price>1400</price>
+        </php>
+
+
+
+
+    </books>
+</bookstore>

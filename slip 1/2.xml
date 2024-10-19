@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<stud_record>
+<student>
+    <roll>1</roll>
+    <name>Deep</name>
+    <address>Nashik</address>
+    <college>CMCS</college>
+    <course>BBACA</course>
+</student>
+<student>
+    <roll>2</roll>
+    <name>Gaurav</name>
+    <address>Kalwan</address>
+    <college>CMCS</college>
+    <course>BBA</course>
+</student>
+<student>
+    <roll>3</roll>
+    <name>Sameer</name>
+    <address>Mumbai</address>
+    <college>CMCS</college>
+    <course>BBAIB</course>
+</student>
+<student>
+    <roll>4</roll>
+    <name>Chirag</name>
+    <address>Nandgaon</address>
+    <college>CMCS</college>
+    <course>BBACA</course>
+</student>
+</stud_record>

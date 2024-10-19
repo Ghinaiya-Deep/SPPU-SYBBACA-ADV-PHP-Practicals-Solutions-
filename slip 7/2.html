@@ -1,0 +1,35 @@
+<html>
+
+<body>
+	Project name : <input type = 'text' id = 'pname'/>
+	<input type = 'submit' value = 'search' id = 'search'>
+	<div id = 'result'></div>
+
+
+	<script>
+		let search = document.getElementById('search');
+		search.addEventListener('click',()=>{
+			let pname = document.getElementById('pname').value;
+			if(pname == '')
+			{
+				document.getElementById('result').innerHTML = '<br>Please Eneter a project name';
+			}
+			else
+			{
+				let xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = ()=>{
+					if(xhttp.readyState == 4 && xhttp.status == 200){
+					document.getElementById('result').innerHTML = xhttp.responseText;
+					}
+					else if(xhttp.readyState == 4 && xhttp.status == 404){
+						document.getElementById('result').innerHTML = 'Data not found';
+					}
+				}
+				xhttp.open('GET','q2.php?pname=' + pname,true);
+				xhttp.send();
+			}
+		})
+	</script>
+</body>
+
+</html>

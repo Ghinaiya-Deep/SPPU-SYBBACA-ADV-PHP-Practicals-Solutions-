@@ -1,0 +1,21 @@
+<?xml version = '1.0'  encoding="UTF-8"?>
+<player>
+	<pinfo>
+		<name>Rohit Sharma</name>
+		<country>India</country>
+		<wicket>30</wicket>
+		<runs>18000</runs>
+	</pinfo>
+	<pinfo>
+		<name>Virat Kohli</name>
+		<country>India</country>
+		<wicket>10</wicket>
+		<runs>26000</runs>
+	</pinfo>
+    <pinfo>
+		<name>M.S.Dhoni</name>
+		<country>India</country>
+		<wicket>50</wicket>
+		<runs>256000</runs>
+	</pinfo>
+</player>

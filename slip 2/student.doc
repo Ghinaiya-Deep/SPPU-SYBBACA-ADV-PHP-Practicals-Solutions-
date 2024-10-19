@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stud_record>
+    <stduent1>
+        <roll>40</roll>
+        <name>Deep</name>
+        <course>BBA(CA)</course>
+    </stduent1>
+
+    <stduent2>
+        <roll>58</roll>
+        <name>Guarav</name>
+        <course>BBA</course>
+    </stduent2>
+
+    <stduent3>
+        <roll>119</roll>
+        <name>Sameer</name>
+        <course>BBA(CA)</course>
+    </stduent3>
+
+</stud_record>

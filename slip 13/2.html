@@ -1,0 +1,32 @@
+<html>
+<head>
+<h2> User information</h2>
+<body>
+<script type="text/javascript">
+function validate()
+{
+	var xmlhttp;
+	if(window.XMLHttpRequest)
+		xmlhttp= new XMLHttpRequest();
+	else
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	    name=f1.txt1.value;
+	    age=f1.txt2.value;
+	    nationality=f1.txt3.value;
+	    xmlhttp.open("GET","2.php?            txt1="+name+"&txt2="+age+"&txt3="+nationality,false);
+	    xmlhttp.send();
+	    document.getElementById("result").innerHTML=xmlhttp.responseText;
+}
+</script>
+<form name="f1">
+Enter Name:
+<input type="text" name="txt1" /><br><br>
+Enter Age:
+<input type="text" name="txt2" /><br><br>
+Enter Nationality:
+<input type="text" name="txt3" /><br><br>
+<input type="button" value="submit" onclick="validate()">
+<div id="result"></div>
+</form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="2.css"?>
+
+<uni_details>
+    <univ>
+        <uname>Pune University</uname>
+        <city>Pune</city>
+        <rank>Second</rank>
+    </univ>
+
+    <univ>
+        <uname>Mumbai University</uname>
+        <city>Mumbai</city>
+        <rank>Third</rank>
+    </univ>
+
+    <univ>
+        <uname>Parul University</uname>
+        <city>Vadodra</city>
+        <rank>First</rank>
+    </univ>
+        
+</uni_details>
